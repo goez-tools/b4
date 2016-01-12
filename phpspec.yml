@@ -1,0 +1,4 @@
+suites:
+  main:
+    namespace: Ns
+    psr4_prefix: Ns

@@ -1,0 +1,29 @@
+{
+  "name": "goez/b4",
+  "description": "A skeleton for building composer based library",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "yourname@example.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "require-dev": {
+    "phpspec/phpspec": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ns\\": "src/"
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "NPM=`which npm` && ${NPM} prune && ${NPM} install"
+    ],
+    "build": [
+      "NPM=`which npm` && ${NPM} prune && ${NPM} install"
+    ]
+  },
+  "license": "MIT"
+}
