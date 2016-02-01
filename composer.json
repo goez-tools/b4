@@ -18,9 +18,6 @@
     }
   },
   "scripts": {
-    "post-create-project-cmd": [
-      "NPM=`which npm` && ${NPM} prune && ${NPM} install"
-    ],
     "build": [
       "NPM=`which npm` && ${NPM} prune && ${NPM} install"
     ]
