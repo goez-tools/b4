@@ -10,7 +10,7 @@
   "minimum-stability": "stable",
   "require": {},
   "require-dev": {
-    "phpspec/phpspec": "*"
+    "phpspec/phpspec": "^4.3"
   },
   "autoload": {
     "psr-4": {
