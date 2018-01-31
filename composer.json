@@ -17,10 +17,5 @@
       "Ns\\": "src/"
     }
   },
-  "scripts": {
-    "build": [
-      "NPM=`which npm` && ${NPM} prune && ${NPM} install"
-    ]
-  },
   "license": "MIT"
 }
