@@ -14,10 +14,10 @@ Documents for this library.
 
 ## Hacking
 
-Watch modification of source and spec files, then run `phpspec`:
+Modify source and spec files, then run:
 
 ```bash
-$ gulp phpspec
+$ vendor/bin/phpspec run
 ```
 
 ## License
